@@ -1,0 +1,91 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "container": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.container",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.carousel",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.projects",
+      "max": 8,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "section2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.section2",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "carousel2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.carousel",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "carousel3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.carousel",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "projectSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.project-section"
+    }
+  }
+}

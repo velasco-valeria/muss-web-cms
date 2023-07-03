@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_skills_sections",
+  "info": {
+    "displayName": "skillsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.skills",
+      "max": 5
+    }
+  }
+}

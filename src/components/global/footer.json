@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.address"
+    },
+    "copyright": {
+      "type": "string"
+    }
+  }
+}

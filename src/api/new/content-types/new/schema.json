@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "news",
+  "info": {
+    "singularName": "new",
+    "pluralName": "news",
+    "displayName": "News",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "principal": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.principal"
+    },
+    "medium": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.principal"
+    },
+    "low1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.principal"
+    },
+    "low2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.principal"
+    },
+    "low3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.principal"
+    },
+    "low4": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.principal"
+    }
+  }
+}

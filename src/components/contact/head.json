@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_heads",
+  "info": {
+    "displayName": "Head",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "title2": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_contact_platforms",
+  "info": {
+    "displayName": "platform"
+  },
+  "options": {},
+  "attributes": {
+    "platformText": {
+      "type": "string"
+    }
+  }
+}

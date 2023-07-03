@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_aboutuses",
+  "info": {
+    "displayName": "aboutus"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "projectsNumber": {
+      "type": "biginteger"
+    },
+    "projectsDescription": {
+      "type": "string"
+    }
+  }
+}

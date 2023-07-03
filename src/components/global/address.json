@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_global_addresses",
+  "info": {
+    "displayName": "Address"
+  },
+  "options": {},
+  "attributes": {
+    "city": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

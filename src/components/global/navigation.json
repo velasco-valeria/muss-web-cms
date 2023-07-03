@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_global_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "social_network": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.social-network"
+    }
+  }
+}

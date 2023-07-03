@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_heads",
+  "info": {
+    "displayName": "head"
+  },
+  "options": {},
+  "attributes": {
+    "headIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "headTitle": {
+      "type": "string"
+    }
+  }
+}

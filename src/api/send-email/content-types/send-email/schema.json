@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "send_emails",
+  "info": {
+    "singularName": "send-email",
+    "pluralName": "send-emails",
+    "displayName": "SendEmail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customer_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "platform": {
+      "type": "string"
+    },
+    "option": {
+      "type": "string"
+    }
+  }
+}

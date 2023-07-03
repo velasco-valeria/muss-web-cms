@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_global_social_networks",
+  "info": {
+    "displayName": "SocialNetwork"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "href": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

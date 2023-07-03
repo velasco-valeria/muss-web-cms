@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_news_principals",
+  "info": {
+    "displayName": "principal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_our_clients",
+  "info": {
+    "displayName": "ourClients",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.partners"
+    }
+  }
+}
