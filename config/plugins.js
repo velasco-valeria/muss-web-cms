@@ -1,4 +1,19 @@
 module.exports = ({ env }) => ({
+    upload:{
+      config: {
+        provider: 'cloudinary',
+        providerOptions: {
+          cloud_name: env('CLOUDINARY_NAME'),
+          api_key: env('CLOUDINARY_KEY'),
+          api_secret: env('CLOUDINARY_SECRET'),
+        },
+        actionOptions: {
+          upload: {},
+          uploadStream: {},
+          delete: {},
+        },
+      }
+    },
     email: {
       config: {
         provider: 'nodemailer',
@@ -11,8 +26,8 @@ module.exports = ({ env }) => ({
           },
         },
         settings: {
-          defaultFrom: 'aldomazrocket@gmail.com',
-          defaultReplyTo: 'aldo.mazon@mussecuador.com',
+          defaultFrom: env('SMTP_USERNAME'),
+          defaultReplyTo: 'mazon.aldo@mussecuador.com',
         },
       },
     },
