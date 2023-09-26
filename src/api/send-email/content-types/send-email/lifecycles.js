@@ -3,7 +3,6 @@ module.exports = {
         const { result } = event;
 
         const ctx = strapi.requestContext.get();
-        console.log(ctx.request.files['files.file'].path);
 
         const attachments = [
             {
@@ -12,15 +11,19 @@ module.exports = {
                 cid: ctx.request.files['files.file'].name,
             },
         ];
-          
+
         try {
             await strapi.plugin('email').service('email').send({
-                to: `aldormazon@gmail.com`,
-                from: 'aldomazrocket@gmail.com',
+                to: `mazon.aldo@mussecuador.com`,
+                from: 'villacis.daniel@mussecuador.com',
                 subject: `Propuesta por ${result.customer_name}`,
                 text: `${result.message}`,
                 html: `
                 <h4>${result.customer_name}</h4>
+                <div><b>Correo de contacto:<b> ${result.email}</div>
+                <div><b>Número de contacto:<b> ${result.option}</div>
+                <div><b>Tipo de proyecto:<b> ${result.platform}</div>
+                <hr/>
                 <span>${result.message}</span>
                 `,
                 attachments
