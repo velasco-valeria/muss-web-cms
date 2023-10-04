@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_billboard_news",
+  "info": {
+    "displayName": "News"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

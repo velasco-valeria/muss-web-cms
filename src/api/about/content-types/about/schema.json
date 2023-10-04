@@ -73,6 +73,27 @@
         }
       },
       "component": "about.our-clients"
+    },
+    "mission": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about.approach",
+      "required": true
+    },
+    "vision": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about.approach"
     }
   }
 }

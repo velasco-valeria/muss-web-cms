@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_global_date_ranges",
+  "info": {
+    "displayName": "DateRange"
+  },
+  "options": {},
+  "attributes": {
+    "startDate": {
+      "type": "datetime"
+    },
+    "finishDate": {
+      "type": "datetime"
+    }
+  }
+}

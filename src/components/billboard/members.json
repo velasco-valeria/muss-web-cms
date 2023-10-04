@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_billboard_members",
+  "info": {
+    "displayName": "members"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    }
+  }
+}

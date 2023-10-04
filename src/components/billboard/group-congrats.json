@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_billboard_group_congrats",
+  "info": {
+    "displayName": "Group-congrats"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "members": {
+      "displayName": "members",
+      "type": "component",
+      "repeatable": true,
+      "component": "billboard.members",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
