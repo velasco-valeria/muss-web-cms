@@ -1,19 +1,18 @@
 {
   "collectionName": "components_about_members",
   "info": {
-    "displayName": "Members"
+    "displayName": "Members",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "description": {
-      "type": "text"
+      ]
     },
     "name": {
       "type": "string"

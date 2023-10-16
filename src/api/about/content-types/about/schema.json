@@ -54,16 +54,6 @@
       },
       "type": "string"
     },
-    "members": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "about.members"
-    },
     "ourClients": {
       "type": "component",
       "repeatable": false,
@@ -94,6 +84,27 @@
         }
       },
       "component": "about.approach"
+    },
+    "MembersSection": {
+      "displayName": "allMembers",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about.all-members"
+    },
+    "Team": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "about.team"
     }
   }
 }

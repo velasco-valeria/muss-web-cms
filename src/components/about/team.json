@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_about_teams",
+  "info": {
+    "displayName": "Team"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "charge": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "networks": {
+      "displayName": "networks",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.networks"
+    }
+  }
+}

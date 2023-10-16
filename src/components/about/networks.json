@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_networks",
+  "info": {
+    "displayName": "networks"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "link": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
