@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({env}) =>  ({
     async afterCreate(event) {
         const { result } = event;
 
@@ -14,8 +14,8 @@ module.exports = {
 
         try {
             await strapi.plugin('email').service('email').send({
-                to: `mazon.aldo@mussecuador.com`,
-                from: 'villacis.daniel@mussecuador.com',
+                to: env('SMTP_DESTINATION'),
+                from: env('SMTP_USERNAME'),
                 subject: `Propuesta por ${result.customer_name}`,
                 text: `${result.message}`,
                 html: `
@@ -32,4 +32,4 @@ module.exports = {
             console.log(err);
         }
     }
-}
+})

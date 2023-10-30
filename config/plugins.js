@@ -27,7 +27,7 @@ module.exports = ({ env }) => ({
         },
         settings: {
           defaultFrom: env('SMTP_USERNAME'),
-          defaultReplyTo: 'mazon.aldo@mussecuador.com',
+          defaultReplyTo: env('SMTP_DESTINATION'),
         },
       },
     },
