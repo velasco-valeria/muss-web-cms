@@ -25,6 +25,10 @@
     },
     "postDate": {
       "type": "date"
+    },
+    "title": {
+      "type": "string",
+      "required": true
     }
   }
 }
