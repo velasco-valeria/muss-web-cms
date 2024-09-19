@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "displayName": "SocialPost",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "pinned": {
+      "type": "boolean",
+      "default": false
+    },
+    "postDate": {
+      "type": "date"
+    }
+  }
+}
