@@ -1,7 +1,8 @@
 {
   "collectionName": "components_about_teams",
   "info": {
-    "displayName": "Team"
+    "displayName": "Team",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,18 +15,32 @@
       "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "networks": {
       "displayName": "networks",
       "type": "component",
       "repeatable": true,
       "component": "about.networks"
+    },
+    "description": {
+      "type": "text"
+    },
+    "experience": {
+      "type": "float"
+    },
+    "delivered_projects": {
+      "type": "integer"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.skills"
     }
   }
 }

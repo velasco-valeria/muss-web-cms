@@ -14,6 +14,30 @@
     },
     "title2": {
       "type": "string"
+    },
+    "experience": {
+      "type": "string"
+    },
+    "experience_label": {
+      "type": "string"
+    },
+    "business_areas": {
+      "type": "string"
+    },
+    "areas_label": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "string"
+    },
+    "projects_label": {
+      "type": "string"
+    },
+    "features_label": {
+      "type": "string"
+    },
+    "view_project_label": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_bars",
+  "info": {
+    "displayName": "bar"
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "float",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

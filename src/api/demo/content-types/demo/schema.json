@@ -34,6 +34,19 @@
     },
     "demolink": {
       "type": "string"
+    },
+    "technologies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.skills"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.skills"
+    },
+    "releaseDate": {
+      "type": "date"
     }
   }
 }

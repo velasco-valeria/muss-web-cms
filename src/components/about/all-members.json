@@ -13,6 +13,15 @@
     "description": {
       "type": "text",
       "required": true
+    },
+    "skills_title": {
+      "type": "string"
+    },
+    "projects_label": {
+      "type": "string"
+    },
+    "experience_label": {
+      "type": "string"
     }
   }
 }
